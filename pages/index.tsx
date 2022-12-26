@@ -1,9 +1,8 @@
 
-import { Inter } from '@next/font/google'
 import Link from 'next/link'
+import { Typography } from '@mui/material'
 
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -11,6 +10,7 @@ export default function Home() {
       <Link href={'/about'}>
         <button>go to about</button>
       </Link>
+      <Typography variant='h1'>hello hello heloo</Typography>
     </>
   )
 }

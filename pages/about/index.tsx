@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
     return <>
-        <h5>About this </h5>
+        <h1>About this </h1>
         <Link href={'/'}>
             <button>go back!</button>
         </Link>
